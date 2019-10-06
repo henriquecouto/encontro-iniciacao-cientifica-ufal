@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import { Tab, Tabs, Typography } from "@material-ui/core";
+import { Tab, Tabs, Typography, Grid } from "@material-ui/core";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
+
+import Opening from "../Opening";
 
 const StyledTabs = withStyles(theme => ({
   indicator: {
@@ -39,12 +41,14 @@ const useStyles = makeStyles(theme => ({
   padding: {
     padding: theme.spacing(3)
   },
-  background: {
-    backgroundColor: theme.palette.tab.background
-  },
   tabs: {
+    backgroundColor: theme.palette.tab.background,
     display: "flex",
     justifyContent: "center"
+  },
+  content: {
+    padding: theme.spacing(3),
+    textAlign: "justify"
   }
 }));
 
@@ -57,7 +61,7 @@ export default function Schedule() {
   };
 
   return (
-    <div id="programacao" className={classes.background}>
+    <div id="programacao">
       <div className={classes.tabs}>
         <StyledTabs
           value={value}
@@ -71,18 +75,14 @@ export default function Schedule() {
         </StyledTabs>
       </div>
 
-      {value === 0 && (
-        <Typography className={classes.padding}>Abertura</Typography>
-      )}
-      {value === 1 && (
-        <Typography className={classes.padding}>Sessão 1</Typography>
-      )}
-      {value === 2 && (
-        <Typography className={classes.padding}>Sessão 2</Typography>
-      )}
-      {value === 3 && (
-        <Typography className={classes.padding}>Sessão 3</Typography>
-      )}
+      <Grid container justify="center">
+        <Grid container className={classes.content}>
+          {value === 0 && <Opening />}
+          {value === 1 && <Typography>Sessão 1</Typography>}
+          {value === 2 && <Typography>Sessão 2</Typography>}
+          {value === 3 && <Typography>Sessão 3</Typography>}
+        </Grid>
+      </Grid>
     </div>
   );
 }
