@@ -5,6 +5,7 @@ import { ThemeProvider } from "@material-ui/styles";
 import Top from "./components/Top";
 import Header from "./components/Header";
 import Schedule from "./components/Schedule";
+import Footer from "./components/Footer";
 
 const theme = createMuiTheme({
   palette: {
@@ -21,6 +22,7 @@ function App() {
       <Top />
       <Header />
       <Schedule />
+      <Footer />
     </ThemeProvider>
   );
 }

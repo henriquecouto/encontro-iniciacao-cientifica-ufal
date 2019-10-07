@@ -35,6 +35,9 @@ export default function Opening() {
   const classes = useStyles();
   return (
     <>
+      <Grid container justify="center" style={{ marginTop: 20 }}>
+        <Typography variant="h3">Local: Auditório do IFAL</Typography>
+      </Grid>
       <Timeline lineColor="#bdbdbd" className={classes.timeline}>
         <TimelineItem
           key="001"
@@ -50,7 +53,7 @@ export default function Opening() {
         </TimelineItem>
         <TimelineItem
           key="002"
-          dateText="14:15h"
+          dateText="14:30h"
           dateInnerStyle={styles.dateInnerStyle}
         >
           <Paper className={classes.content}>
@@ -75,7 +78,6 @@ export default function Opening() {
                   <Typography variant="h6">
                     Prof. Dr. João Vitor Campos Silva
                   </Typography>
-                  <Typography variant="body1">Local: Auditório IFAL</Typography>
                 </Grid>
               </Grid>
             </Grid>

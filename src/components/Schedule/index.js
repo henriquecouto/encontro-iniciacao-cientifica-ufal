@@ -3,6 +3,7 @@ import { Tab, Tabs, Typography, Grid } from "@material-ui/core";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 
 import Opening from "../Opening";
+import SessionOne from "../SessionOne";
 
 const StyledTabs = withStyles(theme => ({
   indicator: {
@@ -78,7 +79,7 @@ export default function Schedule() {
       <Grid container justify="center">
         <Grid container className={classes.content}>
           {value === 0 && <Opening />}
-          {value === 1 && <Typography>Sessão 1</Typography>}
+          {value === 1 && <SessionOne />}
           {value === 2 && <Typography>Sessão 2</Typography>}
           {value === 3 && <Typography>Sessão 3</Typography>}
         </Grid>
