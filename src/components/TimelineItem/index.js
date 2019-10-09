@@ -4,14 +4,8 @@ import TimelineItem from "vertical-timeline-component-for-react/dist/TimelineIte
 import { Paper, Grid, Typography, Divider } from "@material-ui/core";
 
 const styles = {
-  datePresentationStyle: {
+  dateStyle: {
     background: "#bdbdbd",
-    color: "#212121",
-    fontFamily: "Roboto",
-    fontSize: 25
-  },
-  dateOtherStyle: {
-    background: "#f5f5f5",
     color: "#212121",
     fontFamily: "Roboto",
     fontSize: 25
@@ -48,11 +42,7 @@ export default function MyTimelineItem({
     <TimelineItem
       key={itemKey}
       dateText={hour}
-      dateInnerStyle={
-        title === "Apresentação"
-          ? styles.datePresentationStyle
-          : styles.dateOtherStyle
-      }
+      dateInnerStyle={styles.dateStyle}
     >
       <Paper className={classes.content}>
         {title && (

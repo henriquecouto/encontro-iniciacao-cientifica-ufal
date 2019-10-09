@@ -36,7 +36,7 @@ export default function Opening() {
   return (
     <>
       <Grid container justify="center" style={{ marginTop: 20 }}>
-        <Typography variant="h3">Local: Auditório do IFAL</Typography>
+        <Typography variant="h4">Local: Auditório do IFAL</Typography>
       </Grid>
       <Timeline lineColor="#bdbdbd" className={classes.timeline}>
         <TimelineItem

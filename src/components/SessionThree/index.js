@@ -244,7 +244,7 @@ const projects = [
   }
 ];
 
-export default function SessionOne() {
+export default function SessionThree() {
   return (
     <Grid
       container
@@ -255,12 +255,12 @@ export default function SessionOne() {
       <Typography variant="h4">
         Local: Sala 02 - Unidade Educacional de Penedo
       </Typography>
-      <Typography variant="h6">Coordenador: Júlio Inácio Neto</Typography>
+      <Typography variant="h6">Coordenador: Davy Baía</Typography>
       <Typography variant="h6">
-        Monitor: Pablo Felipe Campos dos Santos
+        Monitores: Valdemir Alves Santos Junior e Ana Paula Bezerra Hanisaka
       </Typography>
       <Typography variant="h6">
-        Avaliador Externo: Prof. Dr. João Vitor Campos Silva
+        Avaliadora Externa: Prof. Dra. Martha Suzana Rodrigues dos Santos Rocha
       </Typography>
       <Grid container style={{ marginTop: 40 }} justify="center">
         <TableSchedule projects={projects} />
