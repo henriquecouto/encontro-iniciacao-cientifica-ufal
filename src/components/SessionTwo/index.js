@@ -149,17 +149,16 @@ export default function SessionTwo() {
       style={{ marginTop: 20, marginBottom: 20 }}
       direction="column"
     >
-      <Typography variant="h4">
-        Local: Sala 02 - Unidade Educacional de Penedo
+      <Typography variant="h4">Local: Unidade Educacional de Penedo</Typography>
+      <Typography variant="h6">
+        Coordenadores da Sessão: Prof. André Magno e Prof. Uedson Jacobina
       </Typography>
       <Typography variant="h6">
-        Coordenadores: André Magno e Uedson Jacobina
+        Monitores da Sessão: Bruno Henrique José dos Santos e Raffael Santos
+        Araújo
       </Typography>
       <Typography variant="h6">
-        Monitores: Bruno Henrique José dos Santos e Raffael Santos Araújo
-      </Typography>
-      <Typography variant="h6">
-        Avaliador Externo: Prof. Dr. João Vitor Campos Silva
+        Avaliador Externo: Prof. Dr. João Vitor Campos Silva - UFAL
       </Typography>
       <Grid container style={{ marginTop: 40 }} justify="center">
         <TableSchedule projects={projects} />

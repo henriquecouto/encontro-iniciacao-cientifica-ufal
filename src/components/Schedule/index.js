@@ -33,7 +33,8 @@ const StyledTab = withStyles(theme => ({
     fontWeight: theme.typography.fontWeightRegular,
     fontSize: theme.typography.pxToRem(20),
     // marginRight: theme.spacing(1),
-    zIndex: 1
+    zIndex: 1,
+    minWidth: 300
   }
 }))(props => <Tab disableRipple {...props} />);
 

@@ -6,7 +6,8 @@ import {
   TableBody,
   TableCell,
   TableRow,
-  Paper
+  Paper,
+  Typography
 } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
@@ -52,44 +53,59 @@ export default function TableSchedule({ projects }) {
         </TableHead>
         <TableBody>
           {projects.map((p, j) => {
-            return p.works.map((v, i) => {
-              return (
-                <TableRow
-                  key={i}
-                  style={{ backgroundColor: j % 2 === 0 && "#eeea" }}
-                >
-                  {i === 0 && (
-                    <>
-                      <TableCell
-                        className={classes.cell}
-                        rowSpan={p.works.length}
-                      >
-                        <strong>{p.description}</strong>
+            return (
+              <>
+                {p.works.map((v, i) => {
+                  return (
+                    <TableRow
+                      key={i}
+                      style={{ backgroundColor: j % 2 === 0 && "#eeea" }}
+                    >
+                      {i === 0 && (
+                        <>
+                          <TableCell
+                            className={classes.cell}
+                            rowSpan={p.works.length}
+                          >
+                            <strong>{p.description}</strong>
+                          </TableCell>
+                          <TableCell
+                            className={classes.cell}
+                            rowSpan={p.works.length}
+                            align="center"
+                          >
+                            {p.mastermind}
+                          </TableCell>
+                        </>
+                      )}
+                      <TableCell className={classes.cell} align="center">
+                        {v.knowledgeArea}
                       </TableCell>
-                      <TableCell
-                        className={classes.cell}
-                        rowSpan={p.works.length}
-                        align="center"
-                      >
-                        {p.mastermind}
+                      <TableCell className={classes.cell} align="center">
+                        {v.author}
                       </TableCell>
-                    </>
-                  )}
-                  <TableCell className={classes.cell} align="center">
-                    {v.knowledgeArea}
-                  </TableCell>
-                  <TableCell className={classes.cell} align="center">
-                    {v.author}
-                  </TableCell>
-                  <TableCell className={classes.cell} align="center">
-                    <strong>{v.description}</strong>
-                  </TableCell>
-                  <TableCell className={classes.cell} align="right">
-                    {v.hour}
+                      <TableCell className={classes.cell} align="center">
+                        <strong>{v.description}</strong>
+                      </TableCell>
+                      <TableCell className={classes.cell} align="right">
+                        {v.hour}
+                      </TableCell>
+                    </TableRow>
+                  );
+                })}
+                <TableRow>
+                  <TableCell
+                    colSpan={6}
+                    style={{ backgroundColor: "rgb(224, 224, 224)" }}
+                    align="center"
+                  >
+                    <Typography variant="h6" style={{ fontSize: 16 }}>
+                      DISCUSSÃO DO TRABALHO APRESENTADO
+                    </Typography>
                   </TableCell>
                 </TableRow>
-              );
-            });
+              </>
+            );
           })}
         </TableBody>
       </Table>
