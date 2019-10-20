@@ -71,66 +71,6 @@ const projects = [
     ]
   },
   {
-    key: "004",
-    mastermind: "Julio Inacio Holanda Tavares Neto	",
-    knowledgeArea: "Engenharia Química	",
-    description:
-      "Metodologia para análise de viabilidade na comercialização de hipoclorito de sódio em locais remoto à sua produção.	",
-    hour: "Projeto",
-    works: [
-      {
-        key: "007",
-        author: "Vanessa Regina Vieira Santos	",
-        knowledgeArea: "Engenharia Química	",
-        description:
-          "Construção do modelo linear para a decomposição do hipoclorito de sódio	",
-        hour: "09:05h"
-      },
-      {
-        key: "008",
-        author: "Daysianne Braga Fernandes	",
-        knowledgeArea: "Engenharia Química	",
-        description:
-          "Proposição e análise de modelo matemático, identificação da Função Objetivo	",
-        hour: "09:15h"
-      },
-      {
-        key: "009",
-        author: "Wallyanne Dias Rosendo	",
-        knowledgeArea: "Engenharia Química	",
-        description:
-          "Desenvolvimento e adequação do modelo cinético para decomposição do hipoclorito na etapa de armazenamento e transporte para o Norte do Brasil",
-        hour: "09:25h"
-      }
-    ]
-  },
-  {
-    key: "005",
-    mastermind: "José Pereira Leão Neto	",
-    knowledgeArea: "Física	",
-    description:
-      "Estudo da geração de força de radiação acústica sobre partículas suspensa em um fluido ideal e suas aplicações	",
-    hour: "Projeto",
-    works: [
-      {
-        key: "006",
-        author: "Murilo Kevin Magalhães Lopes Ribeiro	",
-        knowledgeArea: "Física",
-        description:
-          "Aplicações da força de radiação acústica em uma pequena partícula fluida devido a onda plana estacionária	",
-        hour: "09:40h"
-      },
-      {
-        key: "007",
-        author: "Gilmar Ferreira da Silva	",
-        knowledgeArea: "Física",
-        description:
-          "Estudo da força de radiação acústica em uma pequena partícula fluida devido a onda plana progressiva e suas aplicações	",
-        hour: "09:50h"
-      }
-    ]
-  },
-  {
     key: "006",
     mastermind: "Geraldo Inácio Martins	",
     knowledgeArea: "Geografia",
@@ -144,7 +84,7 @@ const projects = [
         knowledgeArea: "Geografia",
         description:
           "A NATUREZA DOS EMPREENDIMENTOS TURÍSTICOS IMOBILIÁRIOS: configuração territorial, produção e reprodução da natureza sob a égide do turismo de massa	",
-        hour: "10:10h"
+        hour: "09:05h"
       },
       {
         key: "007",
@@ -152,7 +92,7 @@ const projects = [
         knowledgeArea: "Geografia",
         description:
           "APROPRIAÇÃO/PRODUÇÃO DA NATUREZA E DO ESPAÇO EM BARRA DE SÃO MIGUEL E PRAIA DO FRANCÊS: turismo de massa, dinâmicas sociais e ambientais no litoral Sul de Alagoas	",
-        hour: "10:20h"
+        hour: "09:15h"
       }
     ]
   },
@@ -170,7 +110,7 @@ const projects = [
         knowledgeArea: "Química",
         description:
           "O Uso de Endocarpo do Cocos Nucifera (coco-da-praia) como Bioadsorvente de Baixo Custo para a Adsorção, Pré-Concentração e Determinação Espectrofotométrica e Colorimétrica Associado ao µPAD de Traços de Cr (VI), Pb (II), Cd (II), Hg (II), Glifosato, Ametrina, Clomazona e Carbamatos em Águas Naturais do Rio São Francisco na Cidade Ribeirinha de Penedo – AL.	",
-        hour: "11:20h"
+        hour: "09:35h"
       },
       {
         key: "002",
@@ -178,7 +118,7 @@ const projects = [
         knowledgeArea: "Química",
         description:
           "O Uso de Mesocarpo do Theobroma Grandiflorum (Cupuaçu) como Bioadsorvente de Baixo Custo para a Adsorção, Pré-Concentração e Determinação Espectrofotométrica e Colorimétrica Associado ao µPAD de Traços de Cr (VI), Pb (II), Cd (II), Hg (II), Glifosato, Ametrina, Clomazona e Carbamatos em Águas Naturais do Rio São Francisco na Cidade Ribeirinha de Penedo – AL.	",
-        hour: "11:30h"
+        hour: "09:45h"
       },
       {
         key: "003",
@@ -186,7 +126,7 @@ const projects = [
         knowledgeArea: "Química",
         description:
           "	O Uso de Endocarpo do Attalea Speciosa (Babaçu) como Bioadsorvente de Baixo Custo para a Adsorção, Pré-Concentração e Determinação Espectrofotométrica e Colorimétrica Associado ao µPAD de Traços de Cr (VI), Pb (II), Cd (II), Hg (II), Glifosato, Ametrina, Clomazona e Carbamatos em Águas Naturais do Rio São Francisco na Cidade Ribeirinha de Penedo – AL.",
-        hour: "11:30h"
+        hour: "09:55h"
       }
     ]
   },
@@ -203,7 +143,7 @@ const projects = [
         author: "Ana Caroline Monteiro Santos	",
         knowledgeArea: "Turismo",
         description: "Desempenho do Conselho Municipal de Turismo de Penedo	",
-        hour: "11:40h"
+        hour: "10:20h"
       },
       {
         key: "002",
@@ -211,14 +151,14 @@ const projects = [
         knowledgeArea: "Turismo",
         description:
           "Criação e Funcionamento do Conselho Municipal de Turismo de Penedo	",
-        hour: "11:50h"
+        hour: "10:30h"
       },
       {
         key: "003",
         author: "Alice de Santana Silva	",
         knowledgeArea: "Turismo",
         description: "Desempenho do Fórum Estadual de Turismo de Alagoas	",
-        hour: "11:50h"
+        hour: "10:40h"
       }
     ]
   },
@@ -236,7 +176,7 @@ const projects = [
         knowledgeArea: "Turismo",
         description:
           "Aspectos socioculturais da comunidade do Pixaim, Piaçabuçu-AL pertinentes ao Turismo de Base Comunitária e sua relação com o mercado turístico local	",
-        hour: "11:40h"
+        hour: "11:05h"
       },
       {
         key: "002",
@@ -244,7 +184,67 @@ const projects = [
         knowledgeArea: "Turismo",
         description:
           "Caracterização das políticas e projetos direcionados a Comunidade do Pixaim, Piaçabuçu-AL e sua relação com o mercado turístico local	",
-        hour: "11:50h"
+        hour: "11:15h"
+      }
+    ]
+  },
+  {
+    key: "005",
+    mastermind: "José Pereira Leão Neto	",
+    knowledgeArea: "Física	",
+    description:
+      "Estudo da geração de força de radiação acústica sobre partículas suspensa em um fluido ideal e suas aplicações	",
+    hour: "Projeto",
+    works: [
+      {
+        key: "007",
+        author: "Gilmar Ferreira da Silva	",
+        knowledgeArea: "Física",
+        description:
+          "Estudo da força de radiação acústica em uma pequena partícula fluida devido a onda plana progressiva e suas aplicações	",
+        hour: "11:35h"
+      },
+      {
+        key: "006",
+        author: "Murilo Kevin Magalhães Lopes Ribeiro	",
+        knowledgeArea: "Física",
+        description:
+          "Aplicações da força de radiação acústica em uma pequena partícula fluida devido a onda plana estacionária	",
+        hour: ""
+      }
+    ]
+  },
+  {
+    key: "004",
+    mastermind: "Julio Inacio Holanda Tavares Neto	",
+    knowledgeArea: "Engenharia Química	",
+    description:
+      "Metodologia para análise de viabilidade na comercialização de hipoclorito de sódio em locais remoto à sua produção.	",
+    hour: "Projeto",
+    works: [
+      {
+        key: "007",
+        author: "Vanessa Regina Vieira Santos	",
+        knowledgeArea: "Engenharia Química	",
+        description:
+          "Construção do modelo linear para a decomposição do hipoclorito de sódio	",
+        hour: ""
+      },
+      {
+        key: "008",
+        author: "Daysianne Braga Fernandes	",
+        knowledgeArea: "Engenharia Química	",
+        description:
+          "Proposição e análise de modelo matemático, identificação da Função Objetivo	",
+        hour: ""
+      },
+      {
+        key: "009",
+        author: "Wallyanne Dias Rosendo	",
+        knowledgeArea: "Engenharia Química	",
+        description:
+          "Desenvolvimento e adequação do modelo cinético para decomposição do hipoclorito na etapa de armazenamento e transporte para o Norte do Brasil",
+        hour: ""
       }
     ]
   }

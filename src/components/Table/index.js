@@ -7,7 +7,8 @@ import {
   TableCell,
   TableRow,
   Paper,
-  Typography
+  Typography,
+  Tooltip
 } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
@@ -86,6 +87,15 @@ export default function TableSchedule({ projects }) {
                       </TableCell>
                       <TableCell className={classes.cell} align="center">
                         <strong>{v.description}</strong>
+                        {!v.hour && (
+                          <>
+                            <br />
+                            <Typography variant="caption">
+                              Não haverá apresentação - O aluno apresentou
+                              justificativa para ausência.
+                            </Typography>
+                          </>
+                        )}
                       </TableCell>
                       <TableCell className={classes.cell} align="right">
                         {v.hour}

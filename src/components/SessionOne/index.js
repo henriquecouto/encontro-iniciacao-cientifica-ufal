@@ -217,48 +217,6 @@ const projects = [
         hour: "12:00h"
       }
     ]
-  },
-  {
-    key: "001",
-    mastermind: "Alexandre Ricardo de Oliveira",
-    knowledgeArea: "Ciências Biológicas",
-    description:
-      "Caracterização do Manguezal do Complexo Estaurino-Lagunar Mundaú-Manguaba - CELMM: Fitossociologia, Composição de Algas, Resíduos Sólidos e Análise Abiótica",
-    hour: "Projeto",
-    works: [
-      {
-        key: "001",
-        author: "Lucelia Lima Farias",
-        knowledgeArea: "Ciências Biológicas",
-        description:
-          "Análise abiótica da água do manguezal do Complexo Estuarino-Lagunar Mundaú-Manguaba - CELMM",
-        hour: "12:15h"
-      },
-      {
-        key: "002",
-        author: "Vitória Petra de Oliveira Barros",
-        knowledgeArea: "Ciências Biológicas",
-        description:
-          "Estrutura dos bosques de mangue do Complexo Estuarino-Lagunar Mundaú-Manguaba - CELMM",
-        hour: "12:25h"
-      },
-      {
-        key: "003",
-        author: "Pedro Henrique Bruno de Souza",
-        knowledgeArea: "Ciências Biológicas",
-        description:
-          "Levantamento da diversidade de algas dos bosques de mangue do Complexo Estuarino-Lagunar Mundaú-Manguaba - CELMM",
-        hour: "12:35h"
-      },
-      {
-        key: "004",
-        author: "William Thiago da Silva Costa Simões",
-        knowledgeArea: "Ciências Biológicas",
-        description:
-          "Qualificação e quantificação dos resíduos sólidos presentes no manguezal do Complexo Estuarino-Lagunar Mundaú-Manguaba - CELMM",
-        hour: "12:45h"
-      }
-    ]
   }
 ];
 
