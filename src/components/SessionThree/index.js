@@ -259,7 +259,7 @@ export default function SessionThree() {
       direction="column"
     >
       <Typography variant="h4">
-        Local: ANEXO I - Escola Manoel Soares de Melo
+        Local: ANEXO I - Escola Manoel Soares de Melo - Sala 4
       </Typography>
       <Typography variant="h6">
         Coordenador da Sessão: Prof. Davy Baía
