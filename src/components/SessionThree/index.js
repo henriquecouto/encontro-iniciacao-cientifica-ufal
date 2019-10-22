@@ -4,6 +4,40 @@ import TableSchedule from "../Table";
 
 const projects = [
   {
+    key: "004",
+    mastermind: "Julio Inacio Holanda Tavares Neto	",
+    knowledgeArea: "Engenharia Química	",
+    description:
+      "Metodologia para análise de viabilidade na comercialização de hipoclorito de sódio em locais remoto à sua produção.	",
+    hour: "Projeto",
+    works: [
+      {
+        key: "007",
+        author: "Vanessa Regina Vieira Santos	",
+        knowledgeArea: "Engenharia Química	",
+        description:
+          "Construção do modelo linear para a decomposição do hipoclorito de sódio	",
+        hour: "08:00h"
+      },
+      {
+        key: "008",
+        author: "Daysianne Braga Fernandes	",
+        knowledgeArea: "Engenharia Química	",
+        description:
+          "Proposição e análise de modelo matemático, identificação da Função Objetivo	",
+        hour: ""
+      },
+      {
+        key: "009",
+        author: "Wallyanne Dias Rosendo	",
+        knowledgeArea: "Engenharia Química	",
+        description:
+          "Desenvolvimento e adequação do modelo cinético para decomposição do hipoclorito na etapa de armazenamento e transporte para o Norte do Brasil",
+        hour: ""
+      }
+    ]
+  },
+  {
     key: "001",
     mastermind: "Diego Dermeval Medeiros da Cunha Matos",
     knowledgeArea: "Ciência da Computação",
@@ -16,7 +50,7 @@ const projects = [
         knowledgeArea: "Ciência da Computação",
         description:
           "Engenharia de requisitos, projeto arquitetural e implementação backend da autoria de ambientes educacionais adaptativos e gamificados",
-        hour: "08:00h"
+        hour: "08:15h"
       },
       {
         key: "002",
@@ -24,7 +58,7 @@ const projects = [
         knowledgeArea: "Ciência da Computação",
         description:
           "Modelagem do design de gamificação de ambientes adaptativos e verificação/validação da autoria de ambientes educacionais adaptativos e gamificados",
-        hour: "08:10h"
+        hour: "08:25h"
       },
       {
         key: "003",
@@ -32,7 +66,7 @@ const projects = [
         knowledgeArea: "Ciência da Computação",
         description:
           "Prototipação e desenvolvimento frontend da autoria de ambientes educacionais adaptativos e gamificados",
-        hour: "08:20h"
+        hour: "08:35h"
       }
     ]
   },
@@ -48,7 +82,7 @@ const projects = [
         author: "Quiteria dos Santos Lima",
         knowledgeArea: "Educação",
         description: "Escolas Quilombolas em Penedo - Currículos e Identidades",
-        hour: "08:35h"
+        hour: "08:50h"
       }
     ]
   },
@@ -66,7 +100,7 @@ const projects = [
         knowledgeArea: "Engenharia Civil",
         description:
           "Obtenção de parâmetros constitutivos empregando correlação de imagens digitais",
-        hour: "08:50h"
+        hour: "09:05h"
       }
     ]
   },
@@ -84,7 +118,7 @@ const projects = [
         knowledgeArea: "Geografia",
         description:
           "A NATUREZA DOS EMPREENDIMENTOS TURÍSTICOS IMOBILIÁRIOS: configuração territorial, produção e reprodução da natureza sob a égide do turismo de massa	",
-        hour: "09:05h"
+        hour: "09:20h"
       },
       {
         key: "007",
@@ -92,7 +126,7 @@ const projects = [
         knowledgeArea: "Geografia",
         description:
           "APROPRIAÇÃO/PRODUÇÃO DA NATUREZA E DO ESPAÇO EM BARRA DE SÃO MIGUEL E PRAIA DO FRANCÊS: turismo de massa, dinâmicas sociais e ambientais no litoral Sul de Alagoas	",
-        hour: "09:15h"
+        hour: "09:30h"
       }
     ]
   },
@@ -110,7 +144,7 @@ const projects = [
         knowledgeArea: "Química",
         description:
           "O Uso de Endocarpo do Cocos Nucifera (coco-da-praia) como Bioadsorvente de Baixo Custo para a Adsorção, Pré-Concentração e Determinação Espectrofotométrica e Colorimétrica Associado ao µPAD de Traços de Cr (VI), Pb (II), Cd (II), Hg (II), Glifosato, Ametrina, Clomazona e Carbamatos em Águas Naturais do Rio São Francisco na Cidade Ribeirinha de Penedo – AL.	",
-        hour: "09:35h"
+        hour: "09:50h"
       },
       {
         key: "002",
@@ -118,7 +152,7 @@ const projects = [
         knowledgeArea: "Química",
         description:
           "O Uso de Mesocarpo do Theobroma Grandiflorum (Cupuaçu) como Bioadsorvente de Baixo Custo para a Adsorção, Pré-Concentração e Determinação Espectrofotométrica e Colorimétrica Associado ao µPAD de Traços de Cr (VI), Pb (II), Cd (II), Hg (II), Glifosato, Ametrina, Clomazona e Carbamatos em Águas Naturais do Rio São Francisco na Cidade Ribeirinha de Penedo – AL.	",
-        hour: "09:45h"
+        hour: "10:00h"
       },
       {
         key: "003",
@@ -126,7 +160,7 @@ const projects = [
         knowledgeArea: "Química",
         description:
           "	O Uso de Endocarpo do Attalea Speciosa (Babaçu) como Bioadsorvente de Baixo Custo para a Adsorção, Pré-Concentração e Determinação Espectrofotométrica e Colorimétrica Associado ao µPAD de Traços de Cr (VI), Pb (II), Cd (II), Hg (II), Glifosato, Ametrina, Clomazona e Carbamatos em Águas Naturais do Rio São Francisco na Cidade Ribeirinha de Penedo – AL.",
-        hour: "09:55h"
+        hour: "10:10h"
       }
     ]
   },
@@ -143,7 +177,7 @@ const projects = [
         author: "Ana Caroline Monteiro Santos	",
         knowledgeArea: "Turismo",
         description: "Desempenho do Conselho Municipal de Turismo de Penedo	",
-        hour: "10:20h"
+        hour: "10:35h"
       },
       {
         key: "002",
@@ -151,14 +185,14 @@ const projects = [
         knowledgeArea: "Turismo",
         description:
           "Criação e Funcionamento do Conselho Municipal de Turismo de Penedo	",
-        hour: "10:30h"
+        hour: "10:45h"
       },
       {
         key: "003",
         author: "Alice de Santana Silva	",
         knowledgeArea: "Turismo",
         description: "Desempenho do Fórum Estadual de Turismo de Alagoas	",
-        hour: "10:40h"
+        hour: "10:55h"
       }
     ]
   },
@@ -176,7 +210,7 @@ const projects = [
         knowledgeArea: "Turismo",
         description:
           "Aspectos socioculturais da comunidade do Pixaim, Piaçabuçu-AL pertinentes ao Turismo de Base Comunitária e sua relação com o mercado turístico local	",
-        hour: "11:05h"
+        hour: "11:20h"
       },
       {
         key: "002",
@@ -184,7 +218,7 @@ const projects = [
         knowledgeArea: "Turismo",
         description:
           "Caracterização das políticas e projetos direcionados a Comunidade do Pixaim, Piaçabuçu-AL e sua relação com o mercado turístico local	",
-        hour: "11:15h"
+        hour: "11:30h"
       }
     ]
   },
@@ -202,7 +236,7 @@ const projects = [
         knowledgeArea: "Física",
         description:
           "Estudo da força de radiação acústica em uma pequena partícula fluida devido a onda plana progressiva e suas aplicações	",
-        hour: "11:35h"
+        hour: "11:50h"
       },
       {
         key: "006",
@@ -210,40 +244,6 @@ const projects = [
         knowledgeArea: "Física",
         description:
           "Aplicações da força de radiação acústica em uma pequena partícula fluida devido a onda plana estacionária	",
-        hour: ""
-      }
-    ]
-  },
-  {
-    key: "004",
-    mastermind: "Julio Inacio Holanda Tavares Neto	",
-    knowledgeArea: "Engenharia Química	",
-    description:
-      "Metodologia para análise de viabilidade na comercialização de hipoclorito de sódio em locais remoto à sua produção.	",
-    hour: "Projeto",
-    works: [
-      {
-        key: "007",
-        author: "Vanessa Regina Vieira Santos	",
-        knowledgeArea: "Engenharia Química	",
-        description:
-          "Construção do modelo linear para a decomposição do hipoclorito de sódio	",
-        hour: ""
-      },
-      {
-        key: "008",
-        author: "Daysianne Braga Fernandes	",
-        knowledgeArea: "Engenharia Química	",
-        description:
-          "Proposição e análise de modelo matemático, identificação da Função Objetivo	",
-        hour: ""
-      },
-      {
-        key: "009",
-        author: "Wallyanne Dias Rosendo	",
-        knowledgeArea: "Engenharia Química	",
-        description:
-          "Desenvolvimento e adequação do modelo cinético para decomposição do hipoclorito na etapa de armazenamento e transporte para o Norte do Brasil",
         hour: ""
       }
     ]
