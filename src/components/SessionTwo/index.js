@@ -180,6 +180,40 @@ const projects = [
         hour: "16:40h"
       }
     ]
+  },
+  {
+    key: "006",
+    mastermind: "Luciano Jorge Amorim Leite",
+    knowledgeArea: "Engenharia de Pesca",
+    description:
+      "Aquapônia no Baixo São Francisco: Um Novo Modelo de Produção Sustentável de Alimentos",
+    hour: "Projeto",
+    works: [
+      {
+        key: "001",
+        author: "Anderson Vinícius Barbosa Silva",
+        knowledgeArea: "Engenharia de Pesca",
+        description:
+          "Determinação de um Modelo de Cultivo de Vegetais em Sistema Aquapônico para o Baixo São Francisco",
+        hour: "17:00h"
+      },
+      {
+        key: "002",
+        author: "Weverton Borba dos Santos Salgueiro",
+        knowledgeArea: "Engenharia de Pesca",
+        description:
+          "Determinação de um modelo de cultivo de Peixes em sistema aquapônico para o baixo São Francisco.",
+        hour: "17:10h"
+      },
+      {
+        key: "003",
+        author: "Anny Ckarolliny Silva Medeiros",
+        knowledgeArea: "Engenharia de Pesca",
+        description:
+          "Determinação de um modelo de cultivo de Peixes em sistema aquapônico para o baixo São Francisco. (Componente Aquicultura).",
+        hour: "17:20h"
+      }
+    ]
   }
 ];
 

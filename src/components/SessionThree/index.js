@@ -100,7 +100,7 @@ const projects = [
         knowledgeArea: "Engenharia Civil",
         description:
           "Obtenção de parâmetros constitutivos empregando correlação de imagens digitais",
-        hour: "09:05h"
+        hour: ""
       }
     ]
   },
@@ -118,7 +118,7 @@ const projects = [
         knowledgeArea: "Geografia",
         description:
           "A NATUREZA DOS EMPREENDIMENTOS TURÍSTICOS IMOBILIÁRIOS: configuração territorial, produção e reprodução da natureza sob a égide do turismo de massa	",
-        hour: "09:20h"
+        hour: ""
       },
       {
         key: "007",
@@ -126,7 +126,7 @@ const projects = [
         knowledgeArea: "Geografia",
         description:
           "APROPRIAÇÃO/PRODUÇÃO DA NATUREZA E DO ESPAÇO EM BARRA DE SÃO MIGUEL E PRAIA DO FRANCÊS: turismo de massa, dinâmicas sociais e ambientais no litoral Sul de Alagoas	",
-        hour: "09:30h"
+        hour: "09:05h"
       }
     ]
   },
@@ -144,7 +144,7 @@ const projects = [
         knowledgeArea: "Química",
         description:
           "O Uso de Endocarpo do Cocos Nucifera (coco-da-praia) como Bioadsorvente de Baixo Custo para a Adsorção, Pré-Concentração e Determinação Espectrofotométrica e Colorimétrica Associado ao µPAD de Traços de Cr (VI), Pb (II), Cd (II), Hg (II), Glifosato, Ametrina, Clomazona e Carbamatos em Águas Naturais do Rio São Francisco na Cidade Ribeirinha de Penedo – AL.	",
-        hour: "09:50h"
+        hour: "09:20h"
       },
       {
         key: "002",
@@ -152,7 +152,7 @@ const projects = [
         knowledgeArea: "Química",
         description:
           "O Uso de Mesocarpo do Theobroma Grandiflorum (Cupuaçu) como Bioadsorvente de Baixo Custo para a Adsorção, Pré-Concentração e Determinação Espectrofotométrica e Colorimétrica Associado ao µPAD de Traços de Cr (VI), Pb (II), Cd (II), Hg (II), Glifosato, Ametrina, Clomazona e Carbamatos em Águas Naturais do Rio São Francisco na Cidade Ribeirinha de Penedo – AL.	",
-        hour: "10:00h"
+        hour: "09:30h"
       },
       {
         key: "003",
@@ -160,7 +160,7 @@ const projects = [
         knowledgeArea: "Química",
         description:
           "	O Uso de Endocarpo do Attalea Speciosa (Babaçu) como Bioadsorvente de Baixo Custo para a Adsorção, Pré-Concentração e Determinação Espectrofotométrica e Colorimétrica Associado ao µPAD de Traços de Cr (VI), Pb (II), Cd (II), Hg (II), Glifosato, Ametrina, Clomazona e Carbamatos em Águas Naturais do Rio São Francisco na Cidade Ribeirinha de Penedo – AL.",
-        hour: "10:10h"
+        hour: "09:40h"
       }
     ]
   },
@@ -177,7 +177,7 @@ const projects = [
         author: "Ana Caroline Monteiro Santos	",
         knowledgeArea: "Turismo",
         description: "Desempenho do Conselho Municipal de Turismo de Penedo	",
-        hour: "10:35h"
+        hour: "10:05h"
       },
       {
         key: "002",
@@ -185,14 +185,14 @@ const projects = [
         knowledgeArea: "Turismo",
         description:
           "Criação e Funcionamento do Conselho Municipal de Turismo de Penedo	",
-        hour: "10:45h"
+        hour: "10:15h"
       },
       {
         key: "003",
         author: "Alice de Santana Silva	",
         knowledgeArea: "Turismo",
         description: "Desempenho do Fórum Estadual de Turismo de Alagoas	",
-        hour: "10:55h"
+        hour: "10:25h"
       }
     ]
   },
@@ -210,7 +210,7 @@ const projects = [
         knowledgeArea: "Turismo",
         description:
           "Aspectos socioculturais da comunidade do Pixaim, Piaçabuçu-AL pertinentes ao Turismo de Base Comunitária e sua relação com o mercado turístico local	",
-        hour: "11:20h"
+        hour: "10:40h"
       },
       {
         key: "002",
@@ -218,7 +218,7 @@ const projects = [
         knowledgeArea: "Turismo",
         description:
           "Caracterização das políticas e projetos direcionados a Comunidade do Pixaim, Piaçabuçu-AL e sua relação com o mercado turístico local	",
-        hour: "11:30h"
+        hour: "10:50h"
       }
     ]
   },
@@ -236,7 +236,7 @@ const projects = [
         knowledgeArea: "Física",
         description:
           "Estudo da força de radiação acústica em uma pequena partícula fluida devido a onda plana progressiva e suas aplicações	",
-        hour: "11:50h"
+        hour: "11:10h"
       },
       {
         key: "006",
