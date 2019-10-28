@@ -50,7 +50,7 @@ const projects = [
         knowledgeArea: "Ciência da Computação",
         description:
           "Engenharia de requisitos, projeto arquitetural e implementação backend da autoria de ambientes educacionais adaptativos e gamificados",
-        hour: "08:15h"
+        hour: ""
       },
       {
         key: "002",

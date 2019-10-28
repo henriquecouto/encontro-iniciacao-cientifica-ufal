@@ -198,20 +198,12 @@ const projects = [
         hour: "17:00h"
       },
       {
-        key: "002",
-        author: "Weverton Borba dos Santos Salgueiro",
-        knowledgeArea: "Engenharia de Pesca",
-        description:
-          "Determinação de um modelo de cultivo de Peixes em sistema aquapônico para o baixo São Francisco.",
-        hour: "17:10h"
-      },
-      {
         key: "003",
         author: "Anny Ckarolliny Silva Medeiros",
         knowledgeArea: "Engenharia de Pesca",
         description:
           "Determinação de um modelo de cultivo de Peixes em sistema aquapônico para o baixo São Francisco. (Componente Aquicultura).",
-        hour: "17:20h"
+        hour: "17:10h"
       }
     ]
   }
