@@ -44,6 +44,12 @@ export default function Top() {
                 <Button color="inherit">Programação</Button>
               </a>
               <a
+                href="#fotos"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Button color="inherit">Fotos</Button>
+              </a>
+              <a
                 href="#sobre"
                 style={{ textDecoration: "none", color: "inherit" }}
               >

@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.tab.indicator,
     paddingLeft: theme.spacing(10),
     paddingRight: theme.spacing(10),
     paddingTop: theme.spacing(5),
@@ -68,7 +68,7 @@ export default function Footer() {
         container
         justify="space-between"
         alignItems="center"
-        style={{ padding: "0 40px" }}
+        style={{ padding: "0 40px", backgroundColor: "#bdbdbd" }}
       >
         <Grid item>
           <Typography variant="body2">

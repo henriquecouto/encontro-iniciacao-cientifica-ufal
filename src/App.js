@@ -6,6 +6,7 @@ import Top from "./components/Top";
 import Header from "./components/Header";
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
+import Photos from "./components/Photos";
 
 const theme = createMuiTheme({
   palette: {
@@ -22,6 +23,7 @@ function App() {
       <Top />
       <Header />
       <Schedule />
+      <Photos />
       <Footer />
     </ThemeProvider>
   );
