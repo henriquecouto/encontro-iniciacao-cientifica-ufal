@@ -2,8 +2,6 @@ import React from "react";
 import { Typography, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-import logoUfal from "../../assets/logo-ufal-color.png";
-
 const useStyles = makeStyles(theme => ({
   root: {
     backgroundColor: theme.palette.primary.main,

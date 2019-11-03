@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tab, Tabs, Typography, Grid } from "@material-ui/core";
+import { Tab, Tabs, Grid } from "@material-ui/core";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 
 import Opening from "../Opening";
