@@ -47,7 +47,7 @@ export default function Photos() {
       <Typography variant="h4">Fotos</Typography>
       <Grid container style={{ marginTop: 40 }}>
         <Paper style={{ padding: 10 }}>
-          <Carousel autoPlay={false} animation="slide">
+          <Carousel interval={8000} animation="slide">
             {photos.map((v, i) => {
               return (
                 <img
