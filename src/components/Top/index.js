@@ -26,7 +26,7 @@ export default function Top() {
                 <img src={logoUfal} alt="logo ufal" height={80} />
               </Grid>
               <Grid item xs>
-                <Typography variant="body1" className={classes.title} s>
+                <Typography variant="body1" className={classes.title}>
                   Encontro de Iniciação Cientifica e Seminário do PIBITI da UFAL
                 </Typography>
               </Grid>
