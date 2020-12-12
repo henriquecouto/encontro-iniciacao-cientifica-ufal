@@ -3,11 +3,14 @@ import { Tab, Tabs, Grid } from "@material-ui/core";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 
 import Opening from "../Opening";
-import SessionOne from "../SessionOne";
-import SessionTwo from "../SessionTwo";
-import SessionThree from "../SessionThree";
+import Session from "../Session";
+import {
+  sessionOneProjects,
+  sessionTwoProjects,
+  sessionThreeProjects,
+} from "../../constants/sessionsProjects";
 
-const StyledTabs = withStyles(theme => ({
+const StyledTabs = withStyles((theme) => ({
   indicator: {
     display: "flex",
     justifyContent: "center",
@@ -15,10 +18,10 @@ const StyledTabs = withStyles(theme => ({
     height: "100%",
     "& > div": {
       width: "100%",
-      backgroundColor: theme.palette.tab.indicator
-    }
-  }
-}))(props => (
+      backgroundColor: theme.palette.tab.indicator,
+    },
+  },
+}))((props) => (
   <Tabs
     {...props}
     TabIndicatorProps={{ children: <div /> }}
@@ -27,48 +30,76 @@ const StyledTabs = withStyles(theme => ({
   />
 ));
 
-const StyledTab = withStyles(theme => ({
+const StyledTab = withStyles((theme) => ({
   root: {
     color: "#212121",
     fontWeight: theme.typography.fontWeightRegular,
     fontSize: theme.typography.pxToRem(20),
     // marginRight: theme.spacing(1),
     zIndex: 1,
-    minWidth: 300
-  }
-}))(props => <Tab disableRipple {...props} />);
+    minWidth: 300,
+  },
+}))((props) => <Tab disableRipple {...props} />);
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   padding: {
-    padding: theme.spacing(3)
+    padding: theme.spacing(3),
   },
   tabs: {
     backgroundColor: theme.palette.tab.background,
     display: "flex",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   content: {
     padding: theme.spacing(3),
-    textAlign: "justify"
-  }
+    textAlign: "justify",
+  },
 }));
+
+const steps = {
+  0: <Opening />,
+  1: (
+    <Session
+      coordinator="Teste"
+      evaluator="Teste"
+      local="Teste"
+      projects={sessionOneProjects}
+    />
+  ),
+  2: (
+    <Session
+      coordinator="Teste"
+      evaluator="Teste"
+      local="Teste"
+      projects={sessionTwoProjects}
+    />
+  ),
+  3: (
+    <Session
+      coordinator="Teste"
+      evaluator="Teste"
+      local="Teste"
+      projects={sessionThreeProjects}
+    />
+  ),
+};
 
 export default function Schedule() {
   const classes = useStyles();
-  const [value, setValue] = useState(0);
+  const [step, setStep] = useState(0);
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
+  const handleChange = (event, newStep) => {
+    setStep(newStep);
   };
 
   return (
     <div id="programacao">
       <div className={classes.tabs}>
         <StyledTabs
-          value={value}
+          value={step}
           onChange={handleChange}
           aria-label="styled tabs example"
         >
@@ -81,10 +112,7 @@ export default function Schedule() {
 
       <Grid container justify="center">
         <Grid container className={classes.content}>
-          {value === 0 && <Opening />}
-          {value === 1 && <SessionOne />}
-          {value === 2 && <SessionTwo />}
-          {value === 3 && <SessionThree />}
+          {steps[step]}
         </Grid>
       </Grid>
     </div>
