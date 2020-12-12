@@ -1,15 +1,16 @@
-import firebase from 'firebase/app'
-import 'firebase/storage'
-const config = { /* COPY THE ACTUAL CONFIG FROM FIREBASE CONSOLE */
-  apiKey: "AIzaSyCQhP2kkU00rcMidV-ZpivdSzymV4Q3i_0",
-    authDomain: "encontro-iniciacao-cientifica.firebaseapp.com",
-    databaseURL: "https://encontro-iniciacao-cientifica.firebaseio.com",
-    projectId: "encontro-iniciacao-cientifica",
-    storageBucket: "encontro-iniciacao-cientifica.appspot.com",
-    messagingSenderId: "176889798248",
-    appId: "1:176889798248:web:6dfbce4066892f541865dd"
+import firebase from "firebase/app";
+import "firebase/storage";
+const config = {
+  apiKey: "AIzaSyA7zRLM6tJFILUB0CaiY_0pkaoEWwzZCWg",
+  authDomain: "encontro-ic-seminario-pibiti.firebaseapp.com",
+  projectId: "encontro-ic-seminario-pibiti",
+  storageBucket: "encontro-ic-seminario-pibiti.appspot.com",
+  messagingSenderId: "139861275480",
+  appId: "1:139861275480:web:f361a31e668b41568fab2d",
+  measurementId: "G-QE0X8P89ZB",
 };
 const app = firebase.initializeApp(config);
+firebase.analytics();
 
 export default app;
 export const storage = firebase.storage();
