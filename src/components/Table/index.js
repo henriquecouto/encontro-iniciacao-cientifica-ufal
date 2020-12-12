@@ -7,29 +7,29 @@ import {
   TableCell,
   TableRow,
   Paper,
-  Typography
+  Typography,
 } from "@material-ui/core";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   cell: {
-    maxWidth: 550
+    maxWidth: 550,
   },
   root: {
-    overflowX: "auto"
+    overflowX: "auto",
+    width: "100%",
   },
   head: {
-    backgroundColor: theme.palette.tab.background
-  }
+    backgroundColor: theme.palette.tab.background,
+  },
 }));
 
 export default function TableSchedule({ projects }) {
   const classes = useStyles();
   return (
     <Paper className={classes.root}>
-      <Table size="">
+      <Table>
         <TableHead className={classes.head}>
           <TableRow>
-            <TableCell className={classes.cell}>Projeto</TableCell>
             <TableCell className={classes.cell} align="center">
               Orientador
             </TableCell>
@@ -54,7 +54,7 @@ export default function TableSchedule({ projects }) {
         <TableBody>
           {projects.map((p, j) => {
             return (
-              <>
+              <React.Fragment key={j}>
                 {p.works.map((v, i) => {
                   return (
                     <TableRow
@@ -63,12 +63,6 @@ export default function TableSchedule({ projects }) {
                     >
                       {i === 0 && (
                         <>
-                          <TableCell
-                            className={classes.cell}
-                            rowSpan={p.works.length}
-                          >
-                            <strong>{p.description}</strong>
-                          </TableCell>
                           <TableCell
                             className={classes.cell}
                             rowSpan={p.works.length}
@@ -102,18 +96,16 @@ export default function TableSchedule({ projects }) {
                     </TableRow>
                   );
                 })}
-                <TableRow>
-                  <TableCell
-                    colSpan={6}
-                    style={{ backgroundColor: "rgb(224, 224, 224)" }}
-                    align="center"
-                  >
-                    <Typography variant="h6" style={{ fontSize: 16 }}>
-                      DISCUSSÃO DO TRABALHO APRESENTADO
-                    </Typography>
-                  </TableCell>
-                </TableRow>
-              </>
+                {j !== projects.length - 1 && (
+                  <TableRow>
+                    <TableCell
+                      colSpan={6}
+                      style={{ backgroundColor: "rgb(224, 224, 224)" }}
+                      align="center"
+                    ></TableCell>
+                  </TableRow>
+                )}
+              </React.Fragment>
             );
           })}
         </TableBody>

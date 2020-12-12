@@ -8,6 +8,7 @@ import {
   sessionOneProjects,
   sessionTwoProjects,
   sessionThreeProjects,
+  sessionFourProjects,
 } from "../../constants/sessionsProjects";
 
 const StyledTabs = withStyles((theme) => ({
@@ -65,7 +66,7 @@ const steps = {
     <Session
       coordinator="Teste"
       evaluator="Teste"
-      local="Teste"
+      local="Sessão Velho Chico"
       projects={sessionOneProjects}
     />
   ),
@@ -73,7 +74,7 @@ const steps = {
     <Session
       coordinator="Teste"
       evaluator="Teste"
-      local="Teste"
+      local="Sessão Maurício de Nassau"
       projects={sessionTwoProjects}
     />
   ),
@@ -81,8 +82,16 @@ const steps = {
     <Session
       coordinator="Teste"
       evaluator="Teste"
-      local="Teste"
+      local="Sessão Museu Paço Imperial"
       projects={sessionThreeProjects}
+    />
+  ),
+  4: (
+    <Session
+      coordinator="Teste"
+      evaluator="Teste"
+      local="Sessão Teatro Sete Setembro"
+      projects={sessionFourProjects}
     />
   ),
 };
@@ -103,10 +112,11 @@ export default function Schedule() {
           onChange={handleChange}
           aria-label="styled tabs example"
         >
-          <StyledTab label="TER - 29/10 (ABERTURA)" />
-          <StyledTab label="QUA - 30/10 (SESSÃO 1)" />
-          <StyledTab label="QUA - 30/10 (SESSÃO 2)" />
-          <StyledTab label="QUA - 30/10 (SESSÃO 3)" />
+          <StyledTab label="TER - 23/02 (ABERTURA)" />
+          <StyledTab label="TER - 23/02 (SESSÃO 1)" />
+          <StyledTab label="TER - 23/02 (SESSÃO 2)" />
+          <StyledTab label="TER - 23/02 (SESSÃO 3)" />
+          <StyledTab label="TER - 23/02 (SESSÃO 4)" />
         </StyledTabs>
       </div>
 
