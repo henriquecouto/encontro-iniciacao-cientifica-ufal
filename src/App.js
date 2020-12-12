@@ -6,15 +6,15 @@ import Top from "./components/Top";
 import Header from "./components/Header";
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
-import Photos from "./components/Photos";
+// import Photos from "./components/Photos";
 
 const theme = createMuiTheme({
   palette: {
     primary: { main: "#fafafa" },
     secondary: { main: "#212121" },
     text: { secondary: "#fff" },
-    tab: { background: "#bdbdbd", indicator: "#e0e0e0" }
-  }
+    tab: { background: "#bdbdbd", indicator: "#e0e0e0" },
+  },
 });
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
       <Top />
       <Header />
       <Schedule />
-      <Photos />
+      {/* <Photos /> */}
       <Footer />
     </ThemeProvider>
   );
