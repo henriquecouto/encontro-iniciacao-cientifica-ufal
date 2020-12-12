@@ -22,13 +22,13 @@ export default function Header() {
       >
         <Hidden only={["sm", "xs"]}>
           <Typography variant="h2" color="textSecondary" align="center">
-            29º Encontro de Iniciação Científica e 12º Seminário do PIBITI da
+            30º Encontro de Iniciação Científica e 13º Seminário do PIBITI da
             UFAL
           </Typography>
         </Hidden>
         <Hidden only={["lg", "md", "xl"]}>
           <Typography variant="h4" color="textSecondary" align="center">
-            29º Encontro de Iniciação Científica e 12º Seminário do PIBITI da
+            30º Encontro de Iniciação Científica e 13º Seminário do PIBITI da
             UFAL
           </Typography>
         </Hidden>
