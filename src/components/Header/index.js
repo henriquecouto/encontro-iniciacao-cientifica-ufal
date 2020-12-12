@@ -1,15 +1,16 @@
 import React from "react";
 import { Grid, Typography, Hidden } from "@material-ui/core";
+import background from "../../assets/background.png";
 import "./index.css";
 
 export default function Header() {
   return (
     <div
       style={{
-        backgroundImage: `url(${require("../../assets/background.png")})`,
+        backgroundImage: `url(${background})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: window.innerHeight
+        height: window.innerHeight,
       }}
     >
       <Grid
