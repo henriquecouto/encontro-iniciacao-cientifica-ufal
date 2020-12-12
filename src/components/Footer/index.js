@@ -1,16 +1,17 @@
 import React from "react";
 import { Typography, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import logoColor from "../../assets/logo-ufal-color.png";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: theme.palette.tab.indicator,
     paddingLeft: theme.spacing(10),
     paddingRight: theme.spacing(10),
     paddingTop: theme.spacing(5),
     paddingBottom: theme.spacing(5),
-    textAlign: "justify"
-  }
+    textAlign: "justify",
+  },
 }));
 
 export default function Footer() {
@@ -82,7 +83,7 @@ export default function Footer() {
               Coordenação de Pesquisa - U.E. Penedo
             </Typography>
             <img
-              src={require("../../assets/logo-ufal-color.png")}
+              src={logoColor}
               alt="logo ufal colorida"
               style={{ height: 80 }}
             />
