@@ -5,13 +5,13 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import logoUfal from "../../assets/logo-ufal-preto-branco.png";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   menuButton: {
-    marginRight: theme.spacing(2)
+    marginRight: theme.spacing(2),
   },
   title: {
-    flexGrow: 1
-  }
+    flexGrow: 1,
+  },
 }));
 
 export default function Top() {
@@ -43,12 +43,12 @@ export default function Top() {
               >
                 <Button color="inherit">Programação</Button>
               </a>
-              <a
+              {/* <a
                 href="#fotos"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 <Button color="inherit">Fotos</Button>
-              </a>
+              </a> */}
               <a
                 href="#sobre"
                 style={{ textDecoration: "none", color: "inherit" }}
