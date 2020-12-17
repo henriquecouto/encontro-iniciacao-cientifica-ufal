@@ -33,7 +33,7 @@ export default function Footer() {
           , buscam estimular os jovens do ensino superior nas atividades de
           pesquisa, aplicando metodologias, conhecimentos teóricos e práticos no
           desenvolvimento de processos e produtos aplicados na indústria e na
-          academia. Este ano, o <strong>29º encontro</strong> contará com a
+          academia. Este ano, o <strong>30º encontro</strong> contará com a
           apresentação de trabalhos das mais diversas áreas de conhecimento,
           tais como, <strong>Ciências Biológicas</strong>,{" "}
           <strong>Ciências da Computação</strong>,{" "}
@@ -43,7 +43,7 @@ export default function Footer() {
           <strong>Geografia</strong> e <strong>Turismo</strong>. Deste modo,
           convidamos toda a comunidade acadêmica e o público em geral para
           participar da programação do nosso{" "}
-          <strong>29º encontro PIBIC e PIBITI</strong>. Prestigie as
+          <strong>30º encontro PIBIC e PIBITI</strong>. Prestigie as
           apresentações e veja como as{" "}
           <strong>
             pesquisas desenvolvidas na nossa universidade beneficiam, impactam e
