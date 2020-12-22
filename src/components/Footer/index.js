@@ -21,35 +21,24 @@ export default function Footer() {
       <Grid container justify="center" className={classes.root} id="sobre">
         <Typography variant="h4">Sobre o Encontro</Typography>
         <Typography variant="h6" style={{ marginTop: 30 }}>
-          O{" "}
+          O Programa Institucional de Bolsas de Iniciação Científica (PIBIC) e o
+          Programa Institucional de Bolsas de Iniciação em Desenvolvimento
+          Tecnológico e Inovação (PIBITI), buscam estimular os jovens do ensino
+          superior nas atividades de pesquisa, aplicando metodologias,
+          conhecimentos teóricos e práticos no desenvolvimento de processos e
+          produtos aplicados na indústria e na academia. Este ano, o 30º
+          encontro contará com a apresentação de trabalhos das mais diversas
+          áreas de conhecimento, tais como, Ciências Biológicas, Ciências da
+          Computação, Engenharias Educação, Física, Geografia e Turismo, e será
+          realizado de forma <strong>remota</strong>, em virtude da pandemia
+          causada pela COVID-19. Bolsistas e voluntários de Iniciação Científica
+          e Iniciação Tecnológica apresentarão suas pesquisas para finalização
+          do{" "}
           <strong>
-            Programa Institucional de Bolsas de Iniciação Cientifica (PIBIC)
-          </strong>{" "}
-          e o{" "}
-          <strong>
-            Programa Institucional de Bolsas de Iniciação em Desenvolvimento
-            Tecnológico e Inovação (PIBITI)
+            Ciclo 2019 - 2020 utilizando um ambiente virtual de comunicação
           </strong>
-          , buscam estimular os jovens do ensino superior nas atividades de
-          pesquisa, aplicando metodologias, conhecimentos teóricos e práticos no
-          desenvolvimento de processos e produtos aplicados na indústria e na
-          academia. Este ano, o <strong>30º encontro</strong> contará com a
-          apresentação de trabalhos das mais diversas áreas de conhecimento,
-          tais como, <strong>Ciências Biológicas</strong>,{" "}
-          <strong>Ciências da Computação</strong>,{" "}
-          <strong>Engenharia de Pesca</strong>,{" "}
-          <strong>Engenharia Química</strong>, <strong>Engenharia Civil</strong>
-          , <strong>Educação</strong>, <strong>Física</strong>,
-          <strong>Geografia</strong> e <strong>Turismo</strong>. Deste modo,
-          convidamos toda a comunidade acadêmica e o público em geral para
-          participar da programação do nosso{" "}
-          <strong>30º encontro PIBIC e PIBITI</strong>. Prestigie as
-          apresentações e veja como as{" "}
-          <strong>
-            pesquisas desenvolvidas na nossa universidade beneficiam, impactam e
-            desenvolvem o nosso país, estado e região
-          </strong>
-          .<br />
+          .
+          <br />
           {/* </Typography>
       <Typography variant="h6" align="left"> */}
           Contamos com a presença e participação de todos. Juntos demonstraremos

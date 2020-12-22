@@ -21,10 +21,22 @@ export default function Header() {
         direction="column"
       >
         <Hidden only={["sm", "xs"]}>
-          <Typography variant="h2" color="textSecondary" align="center">
-            30º Encontro de Iniciação Científica e 13º Seminário do PIBITI da
-            UFAL
-          </Typography>
+          <div
+            style={{
+              alignSelf: "flex-start",
+              padding: 60,
+            }}
+          >
+            <Typography
+              variant="h2"
+              color="textSecondary"
+              align="left"
+              style={{ textShadow: "2px 2px 4px #212121" }}
+            >
+              30º Encontro de Iniciação Científica e<br />
+              13º Seminário do PIBITI da UFAL
+            </Typography>
+          </div>
         </Hidden>
         <Hidden only={["lg", "md", "xl"]}>
           <Typography variant="h4" color="textSecondary" align="center">
@@ -41,6 +53,20 @@ export default function Header() {
             </div>
           </a>
         </Grid>
+        <Typography
+          variant="subtitle2"
+          color="textSecondary"
+          style={{
+            position: "absolute",
+            bottom: 10,
+            right: 20,
+            textShadow: "2px 2px 3px #212121",
+          }}
+        >
+          Imagem de Adriano Virginio
+          <br />
+          @virginio_adriano
+        </Typography>
       </Grid>
     </div>
   );
