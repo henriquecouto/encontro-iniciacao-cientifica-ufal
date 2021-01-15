@@ -31,49 +31,46 @@ const styles = {
   },
 };
 
-export default function Opening() {
+export default function Opening({ local, items }) {
   const classes = useStyles();
   return (
     <>
       <Grid container justify="center" style={{ marginTop: 20 }}>
-        <Typography variant="h4">
-          Transmissão pelo{" "}
-          <a href="https://www.youtube.com/user/AscomUfal" target="blank">
-            Canal do Youtube da UFAL
-          </a>
-        </Typography>
+        <Typography variant="h4">{local}</Typography>
       </Grid>
       <Timeline lineColor="#bdbdbd" className={classes.timeline}>
-        <TimelineItem
-          key="002"
-          dateText="19:00h"
-          dateInnerStyle={styles.dateInnerStyle}
-        >
-          <Paper className={classes.content}>
-            <Grid container className={classes.grid} direction="column">
-              <Grid item>
-                <Typography variant="h5">Palestra - A definir</Typography>
-              </Grid>
-            </Grid>
-            {/* <Divider />
+        {items?.map((item, index) => {
+          return (
+            <TimelineItem
+              key={index}
+              dateText={item.hour}
+              dateInnerStyle={styles.dateInnerStyle}
+            >
+              <Paper className={classes.content}>
+                <Grid container className={classes.grid} direction="column">
+                  <Grid item>{item.component}</Grid>
+                </Grid>
+                {/* <Divider />
             <Grid container className={classes.grid}>
               <Avatar
-                alt="Palestrante"
-                // src={palestrante}
-                className={classes.avatar}
+              alt="Palestrante"
+              // src={palestrante}
+              className={classes.avatar}
               />
               <Grid item xs>
-                <Grid container direction="row" style={{ marginTop: 15 }}>
-                  <Typography
-                    variant="body1"
-                    style={{ fontSize: 22 }}
-                  ></Typography>
-                  <Typography variant="h6">Palestrante: A definir</Typography>
-                </Grid>
+              <Grid container direction="row" style={{ marginTop: 15 }}>
+              <Typography
+              variant="body1"
+              style={{ fontSize: 22 }}
+              ></Typography>
+              <Typography variant="h6">Palestrante: A definir</Typography>
+              </Grid>
               </Grid>
             </Grid> */}
-          </Paper>
-        </TimelineItem>
+              </Paper>
+            </TimelineItem>
+          );
+        })}
       </Timeline>
     </>
   );

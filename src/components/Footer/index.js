@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <>
       <Grid container justify="center" className={classes.root} id="sobre">
-        <Typography variant="h4">Sobre o Encontro</Typography>
+        <Typography variant="h4">Sobre o Congresso</Typography>
         <Typography variant="h6" style={{ marginTop: 30 }}>
           O Programa Institucional de Bolsas de Iniciação Científica (PIBIC) e o
           Programa Institucional de Bolsas de Iniciação em Desenvolvimento
@@ -27,7 +27,7 @@ export default function Footer() {
           superior nas atividades de pesquisa, aplicando metodologias,
           conhecimentos teóricos e práticos no desenvolvimento de processos e
           produtos aplicados na indústria e na academia. Este ano, o 30º
-          encontro contará com a apresentação de trabalhos das mais diversas
+          congresso contará com a apresentação de trabalhos das mais diversas
           áreas de conhecimento, tais como, Ciências Biológicas, Ciências da
           Computação, Engenharias Educação, Física, Geografia e Turismo, e será
           realizado de forma <strong>remota</strong>, em virtude da pandemia

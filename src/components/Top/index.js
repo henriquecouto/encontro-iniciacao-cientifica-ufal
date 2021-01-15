@@ -27,7 +27,8 @@ export default function Top() {
               </Grid>
               <Grid item xs>
                 <Typography variant="body1" className={classes.title}>
-                  Encontro de Iniciação Cientifica e Seminário do PIBITI da UFAL
+                  Congresso de Iniciação Cientifica e Congresso do PIBITI da
+                  UFAL
                 </Typography>
               </Grid>
             </Grid>

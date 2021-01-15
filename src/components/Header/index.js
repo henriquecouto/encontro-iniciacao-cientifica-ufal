@@ -33,15 +33,26 @@ export default function Header() {
               align="left"
               style={{ textShadow: "2px 2px 4px #212121" }}
             >
-              30º Encontro de Iniciação Científica e<br />
-              13º Seminário do PIBITI da UFAL
+              30º Congresso de Iniciação Científica e<br />
+              13º Congresso do PIBITI da UFAL
+            </Typography>
+            <Typography
+              variant="h4"
+              color="textSecondary"
+              align="left"
+              style={{ textShadow: "2px 2px 4px #212121" }}
+            >
+              22 ~ 26 de Fevereiro
             </Typography>
           </div>
         </Hidden>
         <Hidden only={["lg", "md", "xl"]}>
           <Typography variant="h4" color="textSecondary" align="center">
-            30º Encontro de Iniciação Científica e 13º Seminário do PIBITI da
+            30º Congresso de Iniciação Científica e 13º Congresso do PIBITI da
             UFAL
+          </Typography>
+          <Typography variant="h6" color="textSecondary" align="center">
+            22 ~ 26 de Fevereiro
           </Typography>
         </Hidden>
         <Grid container>
@@ -54,7 +65,7 @@ export default function Header() {
           </a>
         </Grid>
         <Typography
-          variant="subtitle2"
+          variant="caption"
           color="textSecondary"
           style={{
             position: "absolute",

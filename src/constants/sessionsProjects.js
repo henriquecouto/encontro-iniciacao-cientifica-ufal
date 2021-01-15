@@ -311,4 +311,27 @@ export const sessionFourProjects = [
       ),
     ],
   },
+  {
+    mastermind: "ANA PAULA DE ALMEIDA PORTELA DA SILVA",
+    works: [
+      makeWork(
+        "VALDENIA TAVARES DA SILVA",
+        "CIÊNCIAS BIOLÓGICAS",
+        "EFEITO SINÉRGICO DE FUNGOS ENTOMOPATOGÊNICOS DO COMPLEXO FIESC (Fusarium incarnatum-equiseti) COM EXTRATO DA FOLHA DE MAMONA (Ricinus communis) SOBRE DIATRAEA SACCHARALIS",
+        "16:00h"
+      ),
+      makeWork(
+        "DAVID FARIAS SILVA",
+        "CIÊNCIAS BIOLÓGICAS",
+        "EFEITO DE ISARIA JAVANICA E DO EXTRATO DE MAMONA (Ricinus communis) SOBRE DIATRAEA SACCHARALIS ",
+        "16:20h"
+      ),
+      makeWork(
+        "MÔNICA SABRINA SILVA DOS SANTOS",
+        "CIÊNCIAS BIOLÓGICAS",
+        "AVALIAÇÃO DA COMPATIBILIDADE DE BEAUVERIA BASSIANA COM O EXTRATO DE RICINUS COMMUNIS",
+        "16:40h"
+      ),
+    ],
+  },
 ];

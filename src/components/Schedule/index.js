@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tab, Tabs, Grid } from "@material-ui/core";
+import { Tab, Tabs, Grid, Typography } from "@material-ui/core";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 
 import Opening from "../Opening";
@@ -35,12 +35,11 @@ const StyledTab = withStyles((theme) => ({
   root: {
     color: "#212121",
     fontWeight: theme.typography.fontWeightRegular,
-    fontSize: theme.typography.pxToRem(20),
-    // marginRight: theme.spacing(1),
+    fontSize: theme.typography.pxToRem(15),
     zIndex: 1,
-    minWidth: 300,
+    width: 210,
   },
-}))((props) => <Tab disableRipple {...props} />);
+}))((props) => <Tab disableRipple {...props} wrapped />);
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -61,8 +60,47 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const steps = {
-  0: <Opening />,
+  0: (
+    <Opening
+      local={
+        <>
+          Transmissão pelo{" "}
+          <a href="https://www.youtube.com/user/AscomUfal" target="blank">
+            Canal do Youtube da UFAL
+          </a>
+        </>
+      }
+      items={[
+        {
+          component: <Typography variant="h5">Palestra - A definir</Typography>,
+          hour: "19:00h",
+        },
+      ]}
+    />
+  ),
   1: (
+    <Opening
+      local={<>Local: A definir</>}
+      items={[
+        {
+          component: (
+            <>
+              <Typography variant="h5">Abertura e boas vindas</Typography>
+              <Typography variant="body1">
+                Direção: Campus Arapiraca - UE Penedo
+              </Typography>
+            </>
+          ),
+          hour: "10:00h",
+        },
+        {
+          component: <Typography variant="h5">Palestra - A definir</Typography>,
+          hour: "10:20h",
+        },
+      ]}
+    />
+  ),
+  2: (
     <Session
       coordinator="A definir"
       evaluator="A definir"
@@ -70,7 +108,7 @@ const steps = {
       projects={sessionOneProjects}
     />
   ),
-  2: (
+  3: (
     <Session
       coordinator="A definir"
       evaluator="A definir"
@@ -78,7 +116,7 @@ const steps = {
       projects={sessionTwoProjects}
     />
   ),
-  3: (
+  4: (
     <Session
       coordinator="A definir"
       evaluator="A definir"
@@ -86,7 +124,7 @@ const steps = {
       projects={sessionThreeProjects}
     />
   ),
-  4: (
+  5: (
     <Session
       coordinator="A definir"
       evaluator="A definir"
@@ -107,16 +145,13 @@ export default function Schedule() {
   return (
     <div id="programacao">
       <div className={classes.tabs}>
-        <StyledTabs
-          value={step}
-          onChange={handleChange}
-          aria-label="styled tabs example"
-        >
-          <StyledTab label="SEG - 22/02 (ABERTURA)" />
-          <StyledTab label="TER - 23/02 - MANHÃ (SESSÃO 1)" />
-          <StyledTab label="TER - 23/02 - MANHÃ (SESSÃO 2)" />
-          <StyledTab label="TER - 23/02 - TARDE (SESSÃO 3)" />
-          <StyledTab label="TER - 23/02 - TARDE (SESSÃO 4)" />
+        <StyledTabs value={step} onChange={handleChange}>
+          <StyledTab label="SEG - 22/02 (ABERTURA) (UFAL / PROPEP)" />
+          <StyledTab label="⠀⠀TER - 23/02 ⠀⠀(ABERTURA LOCAL)" />
+          <StyledTab label="QUA - 24/02 - MANHÃ (SESSÃO 1)" />
+          <StyledTab label="QUA - 24/02 - MANHÃ (SESSÃO 2)" />
+          <StyledTab label="QUA - 24/02 - TARDE (SESSÃO 3)" />
+          <StyledTab label="QUA - 24/02 - TARDE (SESSÃO 4)" />
         </StyledTabs>
       </div>
 
