@@ -102,7 +102,7 @@ const steps = {
   ),
   2: (
     <Session
-      coordinator="A definir"
+      coordinator="Prof. Davy Baía"
       evaluator="A definir"
       local="Sessão Velho Chico"
       projects={sessionOneProjects}
@@ -110,7 +110,7 @@ const steps = {
   ),
   3: (
     <Session
-      coordinator="A definir"
+      coordinator="Profa. Ana Paula Portela"
       evaluator="A definir"
       local="Sessão Maurício de Nassau"
       projects={sessionTwoProjects}
@@ -118,7 +118,7 @@ const steps = {
   ),
   4: (
     <Session
-      coordinator="A definir"
+      coordinator="Prof. Ivon Wilson"
       evaluator="A definir"
       local="Sessão Museu Paço Imperial"
       projects={sessionThreeProjects}
@@ -126,7 +126,7 @@ const steps = {
   ),
   5: (
     <Session
-      coordinator="A definir"
+      coordinator="Prof. Guilherme R. Demetrio"
       evaluator="A definir"
       local="Sessão Teatro Sete Setembro"
       projects={sessionFourProjects}
