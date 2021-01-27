@@ -48,9 +48,13 @@ export default function Opening({ local, items }) {
             >
               <Paper className={classes.content}>
                 <Grid container className={classes.grid} direction="column">
-                  <Grid item>{item.component}</Grid>
+                  <Grid item>{item.header}</Grid>
                 </Grid>
-                {/* <Divider />
+                <Divider />
+                <Grid container className={classes.grid}>
+                  {item.content}
+                </Grid>
+                {/* 
             <Grid container className={classes.grid}>
               <Avatar
               alt="Palestrante"
