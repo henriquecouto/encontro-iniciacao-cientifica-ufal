@@ -8,6 +8,7 @@ import {
   Tooltip,
 } from "@material-ui/core";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
+import luiz from "../../assets/luiz.png";
 
 import Opening from "../Opening";
 import Session from "../Session";
@@ -105,7 +106,7 @@ const steps = {
             <>
               <Avatar
                 alt="Palestrante"
-                // src={palestrante}
+                src={luiz}
                 style={{ margin: 10, width: 150, height: 150 }}
               />
               <Grid item xs>
